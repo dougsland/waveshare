@@ -10,9 +10,9 @@ This repository provides a **generic Python module** designed to support Wavesha
 
 Supported devices include:
 
-Waveshare UGV Rover Open-Source 6 Wheels 4WD AI Robot, Compatible with Raspberry Pi 5, Dual Controllers, Comes with Pan-Tilt Module, PI5-4GB Included
-1. ![Waveshare UGV Rover Open-Source 6 Wheels 4WD AI Robot, Compatible with Raspberry Pi 5, Dual Controllers, Comes with Pan-Tilt Module, PI5-4GB Included](https://raw.githubusercontent.com/dougsland/waveshare/main/pics/01.jpg)  
-   [Amazon link](https://www.amazon.com/gp/product/B0D2L27JDT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+**Waveshare UGV Rover Open-Source 6 Wheels 4WD AI Robot, Compatible with Raspberry Pi 5, Dual Controllers, Comes with Pan-Tilt Module, PI5-4GB Included**
+![Waveshare UGV Rover Open-Source 6 Wheels 4WD AI Robot, Compatible with Raspberry Pi 5, Dual Controllers, Comes with Pan-Tilt Module, PI5-4GB Included](https://raw.githubusercontent.com/dougsland/waveshare/main/pics/01.jpg)  
+[Amazon link](https://www.amazon.com/gp/product/B0D2L27JDT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
    - Enables the use of Raspberry Pi Compute Module (CM) in standard Raspberry Pi 4 setups.
    - Offers compatibility with GPIO and other Raspberry Pi peripherals.
 
