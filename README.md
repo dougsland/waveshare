@@ -12,7 +12,9 @@ Tested devices include:
 
 - **Waveshare UGV Rover Open-Source 6 Wheels 4WD AI Robot, Compatible with Raspberry Pi 5, Dual Controllers, Comes with Pan-Tilt Module, PI5-4GB Included**  
 - [Amazon link](https://www.amazon.com/gp/product/B0D2L27JDT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)  
-![Waveshare UGV Rover Open-Source 6 Wheels 4WD AI Robot, Compatible with Raspberry Pi 5, Dual Controllers, Comes with Pan-Tilt Module, PI5-4GB Included](https://raw.githubusercontent.com/dougsland/waveshare/main/pics/01.jpg)  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dougsland/waveshare/main/pics/01.jpg" alt="Waveshare UGV Rover Open-Source 6 Wheels 4WD AI Robot, Compatible with Raspberry Pi 5, Dual Controllers, Comes with Pan-Tilt Module, PI5-4GB Included" width="50%">
+</p>
    - Enables the use of Raspberry Pi Compute Module (CM) in standard Raspberry Pi 4 setups.
    - Offers compatibility with GPIO and other Raspberry Pi peripherals.
 
