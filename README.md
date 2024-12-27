@@ -8,7 +8,7 @@ Here’s the updated README with the new example:
 
 This repository provides a **generic Python module** designed to support Waveshare devices, particularly for Unmanned Ground Vehicles (UGVs) and remote-controlled robotics projects. The module simplifies integration, control, and operation of vehicles by offering features like joystick-based driving, Wi-Fi connectivity, and motor speed control.
 
-Supported devices include:
+Tested devices include:
 
 - **Waveshare UGV Rover Open-Source 6 Wheels 4WD AI Robot, Compatible with Raspberry Pi 5, Dual Controllers, Comes with Pan-Tilt Module, PI5-4GB Included**  
 - [Amazon link](https://www.amazon.com/gp/product/B0D2L27JDT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)  
