@@ -28,7 +28,8 @@ Tested devices include:
 
 Tested JoySticks
 
-[PC Joystick, USB Gaming Flight Simulator Game Controller with Vibration Function and Throttle Control, PXN 2113 Wired Gamepad Flight Sim Stick for Windows PC/Computer](https://www.amazon.com/gp/product/B06XGBL1HL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)  
+- **PC Joystick, USB Gaming Flight Simulator Game Controller with Vibration Function and Throttle Control, PXN 2113 Wired Gamepad Flight Sim Stick for Windows PC/Computer**
+- [PC Joystick, USB Gaming Flight Simulator Game Controller with Vibration Function and Throttle Control, PXN 2113 Wired Gamepad Flight Sim Stick for Windows PC/Computer](https://www.amazon.com/gp/product/B06XGBL1HL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)  
 ![PC Joystick, USB Gaming Flight Simulator Game Controller with Vibration Function and Throttle Controller, PXN 2113 Wired Gamepad Flight Sim Stick for Windows PC/Computer)[https://github.com/dougsland/waveshare/blob/main/pics/joysticks/1.jpg]  
 
 ## Features
