@@ -24,7 +24,8 @@ Tested devices include:
 <p align="center">
   <img src="https://github.com/dougsland/waveshare/blob/main/pics/02.jpg" alt="Waveshare Wave Rover Flexible and Expandable 4WD Mobile Robot Chassis, Full Metal Body, Multiple Hosts Support, with Onboard ESP32 Module" width="50%">
 </p>
-   - A compact baseboard with Power over Ethernet (PoE) support.
+
+   - A compact baseboard with Power over Ethernet (PoE) support.  
    - Ideal for powering IoT and automotive projects via Ethernet.
 
 ---
