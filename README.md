@@ -49,7 +49,7 @@ CentOS and Fedora Automotive is tested and works out of box. To deploy it you wi
 Example:
 
 1) Install via software store **Raspberry Pi Imager**
-[Software Store Raspberry Pi Imager](https://github.com/dougsland/waveshare/blob/main/pics/software_storage_rasp_pi_imager.png)
+![Software Store Raspberry Pi Imager](https://github.com/dougsland/waveshare/blob/main/pics/software_storage_rasp_pi_imager.png)
 
 ```console
 wget https://dl.fedoraproject.org/pub/fedora/linux/releases/41/Workstation/aarch64/images/Fedora-Workstation-41-1.4.aarch64.raw.xz
