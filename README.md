@@ -17,7 +17,7 @@ Supported devices include:
    - Offers compatibility with GPIO and other Raspberry Pi peripherals.
 
 - **Waveshare Wave Rover Flexible and Expandable 4WD Mobile Robot Chassis, Full Metal Body, Multiple Hosts Support, with Onboard ESP32 Module**
-- [Amazon link](https://www.amazon.com/gp/product/B0CF55LM6Q/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1):
+- [Amazon link](https://www.amazon.com/gp/product/B0CF55LM6Q/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)  
 ![Waveshare Wave Rover Flexible and Expandable 4WD Mobile Robot Chassis, Full Metal Body, Multiple Hosts Support, with Onboard ESP32 Module](https://github.com/dougsland/waveshare/blob/main/pics/02.jpg)
    - A compact baseboard with Power over Ethernet (PoE) support.
    - Ideal for powering IoT and automotive projects via Ethernet.
