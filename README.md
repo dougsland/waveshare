@@ -40,6 +40,23 @@ Tested JoySticks
   <img src="https://github.com/dougsland/waveshare/blob/main/pics/joysticks/1.jpg" alt="PC Joystick, USB Gaming Flight Simulator Game Controller with Vibration Function and Throttle Controller, PXN 2113 Wired Gamepad Flight Sim Stick for Windows PC/Computer" width="50%">
 </p>
 
+---
+
+## CentOS and Fedora Automotive Distro
+
+CentOS and Fedora Automotive is tested and works out of box. To deploy it you will require to plug a raspberry into the UAV and install the distribution into the SDcard. To install follow the steps below (assuming you are using Fedora latest):
+
+Example:
+
+1) Install via software store **Raspberry Pi Imager**
+
+
+
+```console
+wget https://dl.fedoraproject.org/pub/fedora/linux/releases/41/Workstation/aarch64/images/Fedora-Workstation-41-1.4.aarch64.raw.xz
+```
+
+
 ## Features
 
 - **Joystick-Based Control**:
