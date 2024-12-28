@@ -1,3 +1,19 @@
+# Table of Contents
+
+1. [Overview](#overview)  
+2. [JoyStick](#joystick)  
+3. [CentOS and Fedora Automotive Distro](#centos-and-fedora-automotive-distro)  
+4. [Features](#features)  
+5. [Getting Started](#getting-started)  
+   - [Prerequisites](#prerequisites)  
+   - [Installation](#installation)  
+     - [Step 1: Clone the Repository](#step-1-clone-the-repository)  
+     - [Step 2: Install Dependencies](#step-2-install-dependencies)  
+6. [Example: Joystick-Controlled UGV](#example-joystick-controlled-ugv)  
+7. [Not Tested Yet](#not-tested-yet)  
+8. [Contributions](#contributions)  
+9. [License](#license)  
+
 # Waveshare Car Devices Support Module
 
 ## Overview
