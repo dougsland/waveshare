@@ -11,8 +11,9 @@
      - [Step 2: Install Dependencies](#step-2-install-dependencies)  
 6. [Example: Joystick-Controlled UGV](#example-joystick-controlled-ugv)  
 7. [Not Tested Yet](#not-tested-yet)  
-8. [Contributions](#contributions)  
-9. [License](#license)  
+8. [COVESA and VSS](#covesa-and-vss)
+9. [Contributions](#contributions)  
+10. [License](#license)  
 
 # Waveshare Rover Devices Support Module
 
