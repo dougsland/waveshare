@@ -44,7 +44,9 @@ Tested JoySticks
 
 ## CentOS and Fedora Automotive Distro
 
-CentOS and Fedora Automotive is tested and works out of box. To deploy it you will require to plug a raspberry into the UAV and install the distribution into the SDcard. To install follow the steps below (assuming you are using Fedora latest):
+CentOS and Fedora Automotive is tested and works out of box. To deploy it you will require to plug a raspberry into the UAV and install the distribution into the SDcard.  
+
+To install follow the steps below (assuming you are using Fedora latest):
 
 Example:
 
