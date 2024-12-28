@@ -221,7 +221,7 @@ finally:
 
 ---
 
-## Covesa and VSS
+## COVESA and VSS
 
 Clone the VSS repo into the SDCard, example:
 
