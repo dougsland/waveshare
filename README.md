@@ -1,7 +1,3 @@
-Here’s the updated README with the new example:
-
----
-
 # Waveshare Car Devices Support Module
 
 ## Overview
