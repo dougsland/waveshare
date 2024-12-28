@@ -14,7 +14,7 @@
 8. [Contributions](#contributions)  
 9. [License](#license)  
 
-# Waveshare Car Devices Support Module
+# Waveshare Rover Devices Support Module
 
 ## Overview
 
@@ -221,6 +221,23 @@ finally:
 
 ---
 
+## Covesa and VSS
+
+Clone the VSS repo into the SDCard, example:
+
+```console
+root@fedora:# mount /dev/sdc3 /mnt/
+root@fedora:# cd /mnt/home/douglas/
+root@fedora:/mnt/home/douglas# git clone https://github.com/autosd-vss-mw/vss-lib.git
+Cloning into 'vss-lib'...
+remote: Enumerating objects: 974, done.
+remote: Counting objects: 100% (81/81), done.
+remote: Compressing objects: 100% (54/54), done.
+remote: Total 974 (delta 27), reused 67 (delta 17), pack-reused 893 (from 1)
+Receiving objects: 100% (974/974), 188.50 KiB | 1.41 MiB/s, done.
+Resolving deltas: 100% (468/468), done.
+root@fedora:~# umount /mnt 
+```
 ## Contributions
 
 Contributions are welcome! Please open an issue or submit a pull request if you want to enhance the module or add support for new devices.
