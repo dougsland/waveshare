@@ -52,6 +52,12 @@ Tested JoySticks
   <img src="https://github.com/dougsland/waveshare/blob/main/pics/joysticks/1.jpg" alt="PC Joystick, USB Gaming Flight Simulator Game Controller with Vibration Function and Throttle Controller, PXN 2113 Wired Gamepad Flight Sim Stick for Windows PC/Computer" width="50%">
 </p>
 
+- PS5 PlayStation DualSense®
+- [Amazon link](https://www.amazon.com/PlayStation-DualSense%C2%AE-Wireless-Controller-White-5/dp/B0CQKLS4RP/ref=sr_1_3?crid=3HJ0GMFISNWGT&dib=eyJ2IjoiMSJ9.LaC19IrSLdAwP5Gxrrk1v97nBzs5JfZBgrfiZcRPcQ23UsYeRDoDedv4BDQNSrGpicTx5kb2vNw4WIbg3C6vQgS9z_46e8tApi9a3NXKp9-BzmpoDfhgjPbF3YFaoeaGj2yPkAfzMIcY0rIks9Skd11rXIE598rBynk1g4uIDVFqWdwTCgXfxvmUKlFeZZyGrZjRAYsKbNr9HjaVWMXYNtAEXKPqEUTUbo6l-TR4KaY.c9mT2ZS0arEwVVbpzsjmKZwRjK3z8QNWP_Zbx310zlk&dib_tag=se&keywords=ps5%2Bjoystick&qid=1735369418&sprefix=ps5%2Bjo%2Caps%2C134&sr=8-3&th=1)
+<p align="center">
+  <img src="https://github.com/dougsland/waveshare/blob/main/pics/joysticks/2.jpg" alt="Joystick PS5" width="50%">
+</p>
+
 ---
 
 ## CentOS and Fedora Automotive Distro
