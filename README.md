@@ -1,7 +1,7 @@
 # Table of Contents
 
 1. [Overview](#overview)  
-2. [JoyStick](#joystick)  
+2. [JoySticks](#joysticks)  
 3. [CentOS and Fedora Automotive Distro](#centos-and-fedora-automotive-distro)  
 4. [Features](#features)  
 5. [Getting Started](#getting-started)  
@@ -42,7 +42,7 @@ Tested devices include:
 
 ---
 
-## JoyStick
+## JoySticks
 
 Tested JoySticks
 
