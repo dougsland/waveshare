@@ -56,7 +56,7 @@ wget https://dl.fedoraproject.org/pub/fedora/linux/releases/41/Workstation/aarch
 2) Install it via software store **Raspberry Pi Imager** and *upload the Fedora image into SDCard*
 ![Software Store Raspberry Pi Imager](https://github.com/dougsland/waveshare/blob/main/pics/software_storage_rasp_pi_imager.png)
 
-3) Insert into the UAV and turn on, to avoid the AC cord, use batteries, for example [6pcs 1￵8￵6￵50 Rechargeable Batter￵y 5000mAh W￵i￵th 18650 Battery Charger,Universal Charger for Rechargeable 3.7V Li-ion Batteries 26650 14500 10440 Tokeyla (Button Top Type)](https://www.amazon.com/gp/product/B0BCW9Q5QQ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
+3) Insert SDCard into the UAV and turn on, to avoid the AC cord, use batteries, for example [6pcs 1￵8￵6￵50 Rechargeable Batter￵y 5000mAh W￵i￵th 18650 Battery Charger,Universal Charger for Rechargeable 3.7V Li-ion Batteries 26650 14500 10440 Tokeyla (Button Top Type)](https://www.amazon.com/gp/product/B0BCW9Q5QQ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
 
 <p align="center">
   <img src="https://github.com/dougsland/waveshare/blob/main/pics/raspberry_on_rover_autosd_photo1_720.jpg" alt="Fedora 41 booting in ARM" width="50%">
