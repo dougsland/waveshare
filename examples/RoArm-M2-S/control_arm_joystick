@@ -1,0 +1,92 @@
+import pygame
+import time
+from FOSS import armcontroller
+
+# Initialize the robotic arm
+robot_arm = armcontroller.RoArmM2S("192.168.4.1")
+
+# Initialize pygame for joystick handling
+pygame.init()
+pygame.joystick.init()
+
+# Check if a joystick is connected
+if pygame.joystick.get_count() == 0:
+    print("No joystick detected. Please connect a PlayStation 5 controller.")
+    exit()
+
+# Initialize the first joystick
+joystick = pygame.joystick.Joystick(0)
+joystick.init()
+
+print(f"Joystick Name: {joystick.get_name()}")
+
+# Mapping of buttons and axes for PlayStation 5 joystick
+BUTTON_X = 0  # X button
+BUTTON_CIRCLE = 1  # Circle button
+LEFT_STICK_HORIZONTAL = 0  # Axis 0: Left stick horizontal (side-to-side movement)
+LEFT_STICK_VERTICAL = 1  # Axis 1: Left stick vertical (up/down movement)
+RIGHT_STICK_HORIZONTAL = 2  # Axis 2: Right stick horizontal (rotation)
+RIGHT_STICK_VERTICAL = 3  # Axis 3: Right stick vertical (forward/backward movement)
+
+# Deadzone to ignore small joystick movements
+DEADZONE = 0.1
+ARM_SPEED = 0.5  # Speed of arm movement
+ARM_ACCELERATION = 0.5  # Acceleration of arm movement
+
+# Main loop to read joystick events
+running = True
+try:
+    while running:
+        # Default movement values
+        x_movement = 0
+        y_movement = 0
+        z_movement = 0
+        t_rotation = 0
+
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
+
+            # Handle button presses
+            if event.type == pygame.JOYBUTTONDOWN:
+                if event.button == BUTTON_X:
+                    robot_arm.open_jaw()
+                elif event.button == BUTTON_CIRCLE:
+                    robot_arm.close_jaw()
+
+            # Handle axis movements
+            if event.type == pygame.JOYAXISMOTION:
+                # Read left stick for up/down and side-to-side movement
+                y_movement = -joystick.get_axis(LEFT_STICK_VERTICAL)  # Invert for natural up/down
+                x_movement = joystick.get_axis(LEFT_STICK_HORIZONTAL)
+
+                # Read right stick for forward/backward (Z) and rotation (T)
+                z_movement = joystick.get_axis(RIGHT_STICK_VERTICAL)
+                t_rotation = joystick.get_axis(RIGHT_STICK_HORIZONTAL)
+
+                # Apply deadzone to ignore small movements
+                x_movement = 0 if abs(x_movement) < DEADZONE else x_movement
+                y_movement = 0 if abs(y_movement) < DEADZONE else y_movement
+                z_movement = 0 if abs(z_movement) < DEADZONE else z_movement
+                t_rotation = 0 if abs(t_rotation) < DEADZONE else t_rotation
+
+        # Debugging: Print axis values to ensure correctness
+        print(f"X (Side-to-Side): {x_movement}, Y (Up/Down): {y_movement}, Z (Forward/Backward): {z_movement}, Rotation: {t_rotation}")
+
+        # Send movement commands to the robotic arm
+        if any([x_movement, y_movement, z_movement, t_rotation]):
+            robot_arm.cmd_xyzt_direct_ctrl(
+                x_movement * ARM_SPEED,  # Side-to-side movement
+                y_movement * ARM_SPEED,  # Up/down movement
+                z_movement * ARM_SPEED,  # Forward/backward movement
+                t_rotation * ARM_SPEED  # Rotation
+            )
+
+        # Simulate loop delay
+        time.sleep(0.1)
+
+finally:
+    pygame.joystick.quit()
+    pygame.quit()
+    print("Exited safely.")
+
