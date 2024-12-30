@@ -221,6 +221,7 @@ First, connect to wireless network available, usually is **RoArm-M2**, the defau
   <img src="https://github.com/dougsland/waveshare/blob/main/pics/03.jpg" alt="robotic arm" width="50%">
 </p>
 
+*Example*:
 ```console
 import sys
 from FOSS import armcontroller
