@@ -21,11 +21,13 @@ def test_all_commands():
     try:
         print("Testing CMD_WIFI_INFO:")
         print(handler.cmd_wifi_info())
-        print(handler.open_jaw())
-        print(handler.close_jaw())
-
         print("Testing CMD_LIGHT_CTRL:")
         print(handler.cmd_light_ctrl(255))
+        print(handler.open_jaw())
+        import time
+        time.sleep(5)
+        print(handler.close_jaw())
+
         print(handler.cmd_light_ctrl(0))
         sys.exit(0)
 
