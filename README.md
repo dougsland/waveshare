@@ -221,6 +221,34 @@ First, connect to wireless network available, usually is **RoArm-M2**, the defau
   <img src="https://github.com/dougsland/waveshare/blob/main/pics/03.jpg" alt="robotic arm" width="50%">
 </p>
 
+```console
+import sys
+from FOSS import armcontroller
+
+def test_all_commands():
+    ip_address = "192.168.4.1"  # Update this IP as per your device
+    handler = armcontroller.RoArmM2S(ip_address)
+
+    try:
+        print("Testing CMD_WIFI_INFO:")
+        print(handler.cmd_wifi_info())
+        print("Testing CMD_LIGHT_CTRL:")
+        print(handler.cmd_light_ctrl(255))
+        print(handler.open_jaw())
+        import time
+        time.sleep(5)
+        print(handler.close_jaw())
+
+        print(handler.cmd_light_ctrl(0))
+        sys.exit(0)
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+if __name__ == "__main__":
+    test_all_commands()
+```
+
 ---
 
 ## Not tested yet
