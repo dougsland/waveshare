@@ -139,11 +139,11 @@ The following example demonstrates how to use the module to control a UGV using 
 
 ```python
 import pygame
-from FOSS import BaseUGVController
+from FOSS import UGVController
 from time import sleep
 
 # Instantiate the controller with default parameters
-ugv_controller = BaseUGVController(
+ugv_controller = UGVController(
     ssid="UGV",             # Default Wifi
     password="12345678",    # Default Pass
     ip="192.168.4.1",       # Default IP for the Rover
