@@ -213,7 +213,7 @@ finally:
 
 ## Waveshare Robotic Arm Kit
 
-Waveshare Robotic Arm Kit, Desktop Robot Kit, High-Torque Serial Bus Servo, Based On ESP32, 4-DOF, Supports Flexible Expansion and Secondary Development, Wireless Control
+[Waveshare Robotic Arm Kit](https://www.amazon.com/gp/product/B0CMLNPH8V/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1), Desktop Robot Kit, High-Torque Serial Bus Servo, Based On ESP32, 4-DOF, Supports Flexible Expansion and Secondary Development, Wireless Control
 
 First, connect to wireless network available, usually is **RoArm-M2**, the defaul password is 12345678. Feel free to script or change the python examples for automation and send a PR for this repo. ;-)
 
