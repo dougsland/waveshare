@@ -10,10 +10,11 @@
      - [Step 1: Clone the Repository](#step-1-clone-the-repository)  
      - [Step 2: Install Dependencies](#step-2-install-dependencies)  
 6. [Example: Joystick-Controlled UGV](#example-joystick-controlled-ugv)  
-7. [Not Tested Yet](#not-tested-yet)  
-8. [COVESA and VSS](#covesa-and-vss)
-9. [Contributions](#contributions)  
-10. [License](#license)  
+7. [Waveshare Robotic Arm Kit](#waveshare-robotic-arm-kit)
+8. [Not Tested Yet](#not-tested-yet)  
+9. [COVESA and VSS](#covesa-and-vss)
+10. [Contributions](#contributions)  
+11. [License](#license)  
 
 # Waveshare Rover Devices Support Module
 
