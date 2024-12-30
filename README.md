@@ -210,6 +210,18 @@ finally:
 
 ---
 
+## Waveshare Robotic Arm Kit
+
+Waveshare Robotic Arm Kit, Desktop Robot Kit, High-Torque Serial Bus Servo, Based On ESP32, 4-DOF, Supports Flexible Expansion and Secondary Development, Wireless Control
+
+First, connect to wireless network available, usually is **RoArm-M2**, the defaul password is 12345678. Feel free to script or change the python examples for automation and send a PR for this repo. ;-)
+
+<p align="center">
+  <img src="https://github.com/dougsland/waveshare/blob/main/pics/03.jpg" alt="robotic arm" width="50%">
+</p>
+
+---
+
 ## Not tested yet
 
 - [Waveshare UGV Beast ROS 2 Open-Source Off-Road Tracked AI Robot, Dual Controllers, Computer Vision, All-Metal Body, Flexible and Expandable, Compatible with Raspberry Pi 5 (Not Included)](https://www.amazon.com/Waveshare-Open-Source-Controllers-Expandable-Compatible/dp/B0DJQD9MZZ/ref=sr_1_3?crid=3A5TOSRQ6SVWV&dib=eyJ2IjoiMSJ9.4dkL0mW3Dn3Ghl4rp6VwkjMS_q7FLodJwb1fTGW7o-oCa33bm5F1XaWHDeLXwiuFAvUWLeOqGCFC08a7-LH6TyxcNgA2YnWBcMB7Dqy4XF4S1T5ujDYoWyrNvEbcYR3Sv0vjlG28eBAJxGv9AB5wNC8eeCAUb35MHY9iM0inwWUF-X0tG5leCSG-BitA2Vjl2SKLn_M7APTnDuEghrehn8jVGVFV7xHEveAop45tH_s.ZojNYtIzvhGswvJxQIxipQMmMr9r1reUKmYQyP5T3e0&dib_tag=se&keywords=Waveshare+UGV+Rover+Open-Source+beast&qid=1735342472&sprefix=waveshare+ugv+rover+open-source+beas%2Caps%2C222&sr=8-3)
